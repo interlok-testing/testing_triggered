@@ -1,0 +1,17 @@
+```plantuml
+@startuml
+storage Interlok{
+
+usecase messages_out[
+messages_out
+]
+
+usecase trigger[
+trigger
+]
+}
+
+jconsole -> Interlok
+trigger -> messages_out
+@enduml
+```

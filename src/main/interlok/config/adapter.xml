@@ -51,7 +51,6 @@
             </filename-creator>
             <base-directory-url>./messages-out</base-directory-url>
           </producer>
-          <produce-exception-handler class="null-produce-exception-handler"/>
           <unique-id>eager-nobel</unique-id>
           <message-metrics-interceptor>
             <unique-id>eager-nobel-MessageMetrics</unique-id>
@@ -75,13 +74,12 @@
         </retry-interval>
       </message-error-handler>
       <unique-id>gigantic-goldwasser</unique-id>
-      <auto-start>false</auto-start>
       <trigger>
         <connection class="null-connection">
           <unique-id>prickly-payne</unique-id>
         </connection>
         <consumer class="triggered-jmx-consumer">
-          <unique-id>evil-blackwell</unique-id>
+          <unique-id>jmx-trigger</unique-id>
         </consumer>
         <producer class="null-message-producer">
           <unique-id>zen-carson</unique-id>

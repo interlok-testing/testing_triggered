@@ -1,5 +1,8 @@
 # Triggered Testing
 
+[![license](https://img.shields.io/github/license/interlok-testing/testing_triggered.svg)](https://github.com/interlok-testing/testing_triggered/blob/develop/LICENSE)
+[![Actions Status](https://github.com/interlok-testing/testing_triggered/actions/workflows/gradle-build.yml/badge.svg)](https://github.com/interlok-testing/testing_triggered/actions/workflows/gradle-build.yml)
+
 Project tests interlok-triggered features
 
 ## What it does
